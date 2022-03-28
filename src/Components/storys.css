@@ -1,0 +1,19 @@
+.story-main-page{
+    width: 100vw;
+    height: 100vh;
+    background-color: yellow;
+    display: flex;
+}
+
+.story-image{
+    background-color: red;
+    height: 100%;
+    width: 25%;
+}
+
+.mid-container{
+    background-color: aqua;
+    height: 100%;
+    width: 25%;
+}
+

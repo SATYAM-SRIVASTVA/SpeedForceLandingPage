@@ -1,0 +1,102 @@
+
+.header-container{
+    flex-direction: row;
+    display: flex;
+    padding:0 9rem ;
+}
+.header-text>h1{
+    padding-left: 2rem;
+    width: 20rem;
+    font-family: 'Playfair Display', sans-serif;
+    /* font-weight: 100; */
+    /* padding-left: .5rem; */
+    font-size: 2.5rem;
+}
+.header-rectangle{
+    width:80%;
+    height: 2rem;
+    background: rgb(255, 34, 34);
+    margin-top: .6rem;
+    /* margin-left: 1rem; */
+}
+.service-cards{
+    height: 100%;
+    width: 100%;
+}
+.card-customize{
+    width: 18rem;
+    height: 18rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    background-color:#c4c4c4;
+    border-radius: 0;
+}
+.card-container-1{
+    display: flex;
+    padding: 0rem;
+    justify-content: space-evenly;
+}
+.card-container-2{
+    justify-content: space-evenly;
+    display: flex;
+    padding-bottom: 2rem;
+}
+.card-title{
+    font-family: 'Playfair Display', sans-serif;
+    color: rgb(255, 34, 34);
+    padding-top: 1.5rem;
+    
+}
+
+.card-title:hover{
+    text-decoration: underline;
+}
+
+.icon-1{
+    font-size:2rem;
+    color: rgb(255, 34, 34);
+    margin-top: 1.5rem;
+    /* margin-left: 1rem; */
+
+
+}
+.icon-2{
+    font-size:2rem;
+    color: rgb(255, 34, 34);
+    margin-top: 1.5rem;
+    /* margin-left: 1rem; */
+
+
+}
+.icon-3{
+    font-size:2rem;
+    color: rgb(255, 34, 34);
+    margin-top: 1.5rem;
+    /* margin-left: 1rem; */
+
+
+}
+.icon-4{
+    font-size:2rem;
+    color: rgb(255, 34, 34);
+    margin-top: 1.5rem;
+    /* margin-left: 1rem; */
+
+
+}
+.icon-5{
+    font-size:2rem;
+    color: rgb(255, 34, 34);
+    margin-top: 1.5rem;
+    /* margin-left: 1rem; */
+
+
+}
+.icon-6{
+    font-size:2rem;
+    color: rgb(255, 34, 34);
+    margin-top: 1.5rem;
+    /* margin-left: 1rem; */
+
+
+}
