@@ -1,0 +1,142 @@
+.excellent-container{
+    padding-bottom: 3rem;
+    width: 100vw;
+    display: flex;
+}
+
+.excellent-first-container{
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 12rem;
+    height: 60rem;
+}
+
+.excellent-image-container{
+    height: 100%;
+    background-image: url('https://img.freepik.com/free-photo/beautiful-girl-with-long-hair-garage-repairing-motorcycle_1321-1390.jpg?t=st=1648397598~exp=1648398198~hmac=8afeb390a86276f9f33866efe216c36579d3b14e51fb888685334dea24f5f296&w=360');
+    background-size: cover;
+    background-position: center;
+}
+
+.excellent-second-container{
+    padding: 0  0;
+    /* margin: 0 0rem; */
+    height: 100%;
+}
+
+.excellent-second-container-color{
+    padding-top: 3.5rem;
+    padding-left: 4rem;
+    padding-right: 5rem;
+    background-color: rgb(255, 34, 34);
+    
+}
+
+.excellent-second-container-header>h1{
+    font-size: 3.5rem;
+    color: white;
+    font-family: "Playfair Display", serif;
+
+}
+
+.excellent-second-container-para>p{
+    font-family: "Playfair Display", serif;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+    padding-right: 5rem;
+    text-align: justify;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    color: white;
+}
+
+.excellent-second-container-button{
+    text-align: center;
+}
+.excellent-second-container-button>button{
+
+    margin-top: 10rem;
+    font-size: 1.5rem;
+    padding: 0.3rem 2rem;
+    font-family: "Playfair Display", serif;
+
+}
+
+@media screen and (max-width:480px){
+    
+    .excellent-container{
+        display: flex;
+        flex-direction:column; 
+    }
+
+    .excellent-first-container{
+        padding-top: 0rem;
+        height: 60rem;
+
+    }
+
+    .excellent-image-container{
+        height: 60rem;
+    }
+
+    .excellent-second-container-button>button{
+        margin-top: 2rem;
+    }
+
+
+    .excellent-second-container-para>p{
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        padding-right: 2rem;
+    }
+
+    .excellent-second-container-color{
+        padding-top: 5rem;
+    }
+}
+
+@media screen and (min-width:480px) and (max-width:600px){
+    .excellent-container{
+        display: flex;
+        flex-direction:column; 
+    }
+    
+    .excellent-image-container{
+        height: 60rem;
+    }
+
+    .excellent-second-container-para>p{
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        padding-right: 2rem;
+    }
+
+    .excellent-second-container-button>button{
+        margin-top: 2rem;
+    }
+
+}
+
+@media screen and (min-width:600px) and (max-width:800px){
+    
+    .excellent-container{
+        display: flex;
+        flex-direction:column; 
+    }
+    .excellent-image-container{
+        height: 60rem;
+    }
+    .excellent-second-container-button>button{
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (min-width:800px)and(max-width:1000px){
+    .excellent-second-container-color{
+        padding-top: 3.5rem;
+        padding-left: 4rem;
+        padding-right: 5rem;
+        background-color: rgb(255, 34, 34);
+        
+    }
+}

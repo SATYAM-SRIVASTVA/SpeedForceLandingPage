@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+.bike-services{
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+.bikes{
+    height: 100%;
+    width: 100%;
+    background-image:url("https://images.unsplash.com/photo-1530046614490-89e6f776b83b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5rem;
+}
+.block-container{
+    height: 10rem;
+    width: 70rem;
+    background-color:rgb(255, 37, 37);  
+}
+.container-text>h1{
+    font-family: 'Playfair Display', serif;
+    padding:1.8rem 4rem;
+    font-size: 4.5rem;
+    color: white;
+}
+.text-paragraph>p{
+    color: white;
+    font-size:2rem;
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: -200;
+    text-align: justify;
+    margin-top: 4.5rem;
+}
+
+
+.combine-container{
+    margin-left: 19rem;
+}
+
+.final-button>button{ 
+    font-family: 'Playfair Display', serif;
+    color: white;
+    margin-left: 0;
+    border-radius: 0;
+    font-size: 1.5rem;
+    margin-top: 5rem;
+}
+
+@media screen and (max-width:480px)
+{
+    .block-container{
+        height: 5rem;
+        width: 25rem;
+        margin:0;
+
+    }
+
+    .container-text>h1{
+        padding: 1.5rem 2rem;
+        font-size: 1.5rem;
+    }
+
+    .combine-container{
+        margin-left: 2rem;
+    }
+
+    .text-paragraph>p{
+        font-size:1.2rem;
+        font-weight: -200;
+        text-align: justify;
+        margin-top: 5rem;
+    }
+
+    .final-button>button{ 
+        margin-left: 0;
+        border-radius: 0;
+        font-size: 1.2rem;
+        margin-top: 3.5rem;
+    }
+}
+
+@media screen and (min-width:480px) and (max-width:600px){
+    .block-container{
+        height: 5rem;
+        width: 28rem;
+        margin:0;
+
+    }
+
+    .container-text>h1{
+        padding: 1.5rem 2rem;
+        font-size: 1.7rem;
+    }
+
+    .combine-container{
+        margin-left: 2rem;
+    }
+
+    .text-paragraph>p{
+        font-size:1.4rem;
+        font-weight: -200;
+        text-align: justify;
+        margin-top: 5rem;
+    }
+
+    .final-button>button{ 
+        margin-left: 0;
+        border-radius: 0;
+        font-size: 1.2rem;
+        margin-top: 3.5rem;
+    }
+}
+@media screen and (min-width:600px) and (max-width:800px){
+    .block-container{
+        height: 5rem;
+        width: 28rem;
+        margin:4rem;
+        margin-left: 3rem;
+    }
+
+    .container-text>h1{
+        padding: 1.5rem 2rem;
+        font-size: 1.7rem;
+    }
+
+    .combine-container{
+        margin-left: 6rem;
+    }
+
+    .text-paragraph>p{
+        font-size:1.4rem;
+        font-weight: -200;
+        text-align: justify;
+        margin-top: 5rem;
+    }
+
+    .final-button>button{ 
+        margin-left: 0;
+        border-radius: 0;
+        font-size: 1.2rem;
+        margin-top: 3.5rem;
+    }
+}
+@media screen and (min-width:800px) and (max-width:1000px){
+    .block-container{
+        height: 5rem;
+        width: 20rem;
+        margin:0;
+
+    }
+
+    .block-container{
+        height: 6rem;
+        width: 40rem;
+        background-color:rgb(255, 37, 37);  
+    }
+
+    .container-text>h1{
+        padding: 1.5rem 2.5rem;
+        font-size: 2.5rem;
+    }
+
+    .combine-container{
+        margin-left: 5rem;
+    }
+
+    .text-paragraph>p{
+        font-size:1.8rem;
+        font-weight: -200;
+        text-align: justify;
+        margin-top: 5rem;
+    }
+
+    .final-button>button{ 
+        margin-left: 0;
+        border-radius: 0;
+        font-size: 1.5rem;
+        margin-top: 3.5rem;
+    }
+}

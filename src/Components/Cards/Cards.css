@@ -19,10 +19,13 @@
     margin-top: .6rem;
     /* margin-left: 1rem; */
 }
-.service-cards{
-    height: 100%;
-    width: 100%;
+
+.card-container-1{
+    display: flex;
+    padding: 0rem;
+    justify-content: space-evenly;
 }
+
 .card-customize{
     width: 18rem;
     height: 18rem;
@@ -30,11 +33,6 @@
     margin-top: 2rem;
     background-color:#c4c4c4;
     border-radius: 0;
-}
-.card-container-1{
-    display: flex;
-    padding: 0rem;
-    justify-content: space-evenly;
 }
 .card-container-2{
     justify-content: space-evenly;
@@ -52,51 +50,179 @@
     text-decoration: underline;
 }
 
-.icon-1{
+.card-icon{
     font-size:2rem;
     color: rgb(255, 34, 34);
     margin-top: 1.5rem;
     /* margin-left: 1rem; */
+}
 
+@media screen and (max-width:480px){
+
+    .header-container{
+        flex-direction: row;
+        display: flex;
+        padding:0rem ;
+    }
+    
+    .header-text>h1{
+        padding-top: 1rem;
+        padding-left: 2rem;
+        width: 15rem;
+        font-size: 1.8rem;
+    }
+    .header-rectangle{
+        margin-top: 1rem;
+        margin-right: 1rem;
+    }
+
+    .card-container-1{
+        flex-direction: column;
+        padding: 0rem 4.2rem;
+    }
+    
+
+    .card-container-2{
+        padding: 0rem 4.2rem;
+        flex-direction: column;
+        padding-bottom: 4rem;
+    }
 
 }
-.icon-2{
-    font-size:2rem;
-    color: rgb(255, 34, 34);
-    margin-top: 1.5rem;
-    /* margin-left: 1rem; */
 
+@media screen and (min-width:480px) and (max-width:600px){
+    .header-container{
+        flex-direction: row;
+        display: flex;
+        padding:0rem ;
+    }
 
+    .header-text>h1{
+        padding-top: 1rem;
+        padding-left: 2rem;
+        width: 15rem;
+        font-size: 1.8rem;
+    }
+    .header-rectangle{
+        margin-top: 1rem;
+        margin-right: 1rem;
+    }
+
+    .card-container-1{
+        display: flex;
+        padding-right: 1.5rem;
+        justify-content: space-evenly;
+    }
+
+    .card-container-2{
+        display: flex;
+        padding-right: 1.5rem;
+        justify-content: space-evenly;
+    }
+
+    .card-customize{
+        overflow: hidden;
+        width: 15rem;
+        height: 22rem;
+        margin-left: 2rem;
+        margin-top: 2rem;
+        background-color:#c4c4c4;
+        border-radius: 0;
+    }
+    .card-icon p{
+        font-size:1.5rem;
+        color: rgb(255, 34, 34);
+        margin-top: 1.5rem;
+        /* margin-left: 1rem; */
+    }
+    
 }
-.icon-3{
-    font-size:2rem;
-    color: rgb(255, 34, 34);
-    margin-top: 1.5rem;
-    /* margin-left: 1rem; */
-
-
+.card-text{
+    font-size: 1rem;
+    /* justify-content: left; */
+    text-align: justify;
 }
-.icon-4{
-    font-size:2rem;
-    color: rgb(255, 34, 34);
-    margin-top: 1.5rem;
-    /* margin-left: 1rem; */
 
+@media screen and (min-width:600px) and (max-width:800px){
+    .header-container{
+        flex-direction: row;
+        display: flex;
+        padding:0rem ;
+    }
 
+    .header-text>h1{
+        padding-top: 1rem;
+        padding-left: 2rem;
+        width: 15rem;
+        font-size: 1.8rem;
+    }
+    .header-rectangle{
+        margin-top: 1rem;
+        margin-right: 1rem;
+    }
+
+    .card-container-1{
+        display: flex;
+        padding-right: 1.5rem;
+        justify-content: space-evenly;
+    }
+
+    .card-container-2{
+        display: flex;
+        padding-right: 1.5rem;
+        justify-content: space-evenly;
+    }
+
+    .card-customize{
+        width: 15rem;
+        height: 21rem;
+        margin-left: 2rem;
+        margin-top: 2rem;
+        background-color:#c4c4c4;
+        border-radius: 0;
+    }
+    
+
+    
 }
-.icon-5{
-    font-size:2rem;
-    color: rgb(255, 34, 34);
-    margin-top: 1.5rem;
-    /* margin-left: 1rem; */
 
+@media screen and (min-width:800px) and (max-width:1000px){
+    .header-container{
+        flex-direction: row;
+        display: flex;
+        padding:0rem ;
+    }
 
-}
-.icon-6{
-    font-size:2rem;
-    color: rgb(255, 34, 34);
-    margin-top: 1.5rem;
-    /* margin-left: 1rem; */
+    .header-text>h1{
+        padding-top: 1rem;
+        padding-left: 2rem;
+        width: 15rem;
+        font-size: 1.8rem;
+    }
+    .header-rectangle{
+        margin-top: 1rem;
+        margin-right: 1rem;
+    }
 
+    .card-container-1{
+        display: flex;
+        padding-right: 1.5rem;
+        justify-content: space-evenly;
+    }
 
+    .card-container-2{
+        display: flex;
+        padding-right: 1.5rem;
+        justify-content: space-evenly;
+    }
+
+    .card-customize{
+        width: 18rem;
+        height: 18rem;
+        margin-left: 2rem;
+        margin-top: 2rem;
+        background-color:#c4c4c4;
+        border-radius: 0;
+    }
+    
 }
