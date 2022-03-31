@@ -21,14 +21,14 @@ export default class bikeservice extends Component {
             <div className="service-text-second-container">
               <div className="bike-header">
                 <div className="bike-header-first"> </div>
-                <div className="bike-header-second">
+                <div className="bike-header-second card-heading">
                   <h1>Bike</h1>
                 </div>
                 <div className="bike-header-third">
-                  <div className="bike-header-third-ser">
+                  <div className="bike-header-third-ser card-heading">
                     <h1>Service</h1>
                   </div>
-                  <div className="bike-header-third-vice">
+                  <div className="bike-header-third-vice card-heading">
                     <h1>At Home</h1>
                   </div>
                 </div>
@@ -47,7 +47,7 @@ export default class bikeservice extends Component {
                 </p>
               </div>
               <div className="bike-button">
-              <a href="https://api.whatsapp.com/send?phone=+917291921804&Hii, Speedforce"> <button type="button" class="btn btn-outline-danger">Best Bike Repair Service @home</button></a>
+              <a href="https://api.whatsapp.com/send?phone=+917291921804&Hii, Speedforce"> <button type="button" class="btn btn-outline-danger mb-3">Best Bike Repair Service @home</button></a>
               <a href="https://api.whatsapp.com/send?phone=+917291921804&Hii, Speedforce"> <button type="button" class="btn btn-danger">Contact us</button></a>
               </div>
             </div>

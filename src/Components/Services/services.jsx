@@ -24,7 +24,7 @@ export default class services extends Component {
               </div>
 
               <div className="final-button">
-               <a href="https://api.whatsapp.com/send?phone=+917291921804&Hii, Speedforce"> <button type="button " class="btn btn-lg contact-button">
+               <a href="https://api.whatsapp.com/send?phone=+917291921804&Hii, Speedforce"> <button type="button" className="button-submit" >
                   Yes I'm Interested
                 </button></a>
               </div>

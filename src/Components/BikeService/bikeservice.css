@@ -95,39 +95,336 @@
    z-index: -1;
  }
 
- @media screen and(max-width:320px){
-   .bike-header-first{
-     width:2rem;
-     height:13rem;
-     background-Color:rgb(255, 34, 34);
-   }
- 
-   .bike-header-second{
-     transform: rotate(-90deg);
-     width: 5rem;
-     margin: 0rem 1rem 0 1rem;
-   }
-   .bike-header-second>h1{
-     font-family: 'Playfair Display', serif;
-     font-size: 7rem;
-   }
- 
-   .bike-header-third-ser>h1{
-     font-family: 'Playfair Display', serif;
-     font-size: 5rem;
-     word-spacing: 1;
-     color:rgb(255, 34, 34);
-   }
- 
-   .bike-header-third-vice>h1{
-     font-family: 'Playfair Display', serif;
-     font-size: 4.7rem;
-   }   
- 
- 
+ @media screen and (min-width:300px) and (max-width:350px){
+  .service-main-container{
+    display: flex;
+    overflow-x:hidden;
+    /* padding-right: 1.5rem; */
+  }
+ .service-text-container{
+   padding: 1rem 2rem;
+    /* padding-left: 0; */
+    padding-right: 1.5rem;
+
  }
 
-  @media screen and (max-width:480px){
+ .service-text-container>*{
+   margin: 3rem 0 0 0;
+ }
+
+ .bike-header{
+   display: flex;
+   
+ }
+
+  .bike-header-first{
+   width:3.5rem;
+   height:10rem;
+   background-Color:rgb(255, 34, 34);
+ }
+
+ .bike-header-second{
+   transform: rotate(-90deg);
+   width: 5rem;
+   margin: 4rem 0rem 0 1rem;
+ }
+ .bike-header-second>h1{
+   font-family: 'Playfair Display', serif;
+   font-size: 4rem;
+ }
+
+ .bike-header-third-ser>h1{
+   font-family: 'Playfair Display', serif;
+   font-size: 2.5rem;
+   word-spacing: 1;
+   color:rgb(255, 34, 34);
+ }
+
+ .bike-header-third-vice>h1{
+   font-family: 'Playfair Display', serif;
+   font-size: 2.7rem;
+ }    
+
+ .bike-para{
+   margin: 1rem;
+ }
+ .bike-para>p{
+   text-align: justify;
+   font-family: 'Playfair Display', serif;
+ }
+
+ .bike-button>button{
+   margin: 1rem;
+   border-radius:0;
+ }
+ 
+ .service-image-container{
+  padding:0;
+   display: flex;
+   flex-direction: column;
+   justify-content: end;
+   position: relative;
+   padding-left: -8rem;
+   
+ }
+
+
+ .slider-1{
+   margin-top: 3rem ;
+   width: 100vw;
+   height: 22rem;
+   background-image: url("https://www.freepngimg.com/thumb/bike/23462-4-biker-transparent-background.png");
+   background-size: 95%;
+   background-repeat: no-repeat;
+   background-blend-mode: overlay;
+ } 
+
+ .slider-2{
+    margin-top: 3rem ;
+    width: 100vw;
+    height: 22rem;
+    background-image: url("https://www.freepngimg.com/thumb/bike/23302-6-racing-motorbike-photos.png");
+    background-size: 95%;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+  }
+
+ .service-image-bottom{
+   width: 100vw;
+   height: 15rem;
+   background-color: rgb(255, 34, 34);
+   position: absolute;
+   bottom: 0rem;
+   background-blend-mode: overlay;
+   z-index: -1;
+ }
+
+ }
+
+ @media screen and (min-width:350px) and (max-width:400px){
+  .service-main-container{
+    display: flex;
+    overflow-x:hidden;
+    /* padding-right: 1.5rem; */
+  }
+ .service-text-container{
+   padding: 1rem 2rem;
+    /* padding-left: 0; */
+    padding-right: 1.5rem;
+
+ }
+
+ .service-text-container>*{
+   margin: 3rem 0 0 0;
+ }
+
+ .bike-header{
+   display: flex;
+   
+ }
+
+  .bike-header-first{
+   width:4rem;
+   height:10rem;
+   background-Color:rgb(255, 34, 34);
+ }
+
+ .bike-header-second{
+   transform: rotate(-90deg);
+   width: 5rem;
+   margin: 4rem 1rem 0 1rem;
+ }
+ .bike-header-second>h1{
+   font-family: 'Playfair Display', serif;
+   font-size: 4.5rem;
+ }
+
+ .bike-header-third-ser>h1{
+   font-family: 'Playfair Display', serif;
+   font-size: 3rem;
+   word-spacing: 1;
+   color:rgb(255, 34, 34);
+ }
+
+ .bike-header-third-vice>h1{
+   font-family: 'Playfair Display', serif;
+   font-size: 2.6rem;
+ }    
+
+ .bike-para{
+   margin: 1rem;
+ }
+ .bike-para>p{
+   text-align: justify;
+   font-family: 'Playfair Display', serif;
+ }
+
+ .bike-button>button{
+   margin: 1rem;
+   border-radius:0;
+ }
+ 
+ .service-image-container{
+  padding:0;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: end;
+   position: relative;
+   padding-left: -8rem;
+   
+ }
+
+
+ .slider-1{
+   margin-top: 3rem ;
+   width: 100vw;
+   height: 22rem;
+   background-image: url("https://www.freepngimg.com/thumb/bike/23462-4-biker-transparent-background.png");
+   background-size: 95%;
+   background-repeat: no-repeat;
+   background-blend-mode: overlay;
+ } 
+
+ .slider-2{
+    margin-top: 3rem ;
+    width: 100vw;
+    height: 22rem;
+    background-image: url("https://www.freepngimg.com/thumb/bike/23302-6-racing-motorbike-photos.png");
+    background-size: 95%;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+  }
+
+ .service-image-bottom{
+   width: 100vw;
+   height: 15rem;
+   background-color: rgb(255, 34, 34);
+   position: absolute;
+   bottom: 0rem;
+   background-blend-mode: overlay;
+   z-index: -1;
+ }
+
+ }
+
+ @media screen and (min-width:400px) and (max-width:420px){
+  .service-main-container{
+    display: flex;
+    overflow-x:hidden;
+    /* padding-right: 1.5rem; */
+  }
+ .service-text-container{
+   padding: 1rem 2rem;
+    /* padding-left: 0; */
+    padding-right: 1.5rem;
+
+ }
+
+ .service-text-container>*{
+   margin: 3rem 0 0 0;
+ }
+
+ .bike-header-first{
+  width:4rem;
+  height:10rem;
+  background-Color:rgb(255, 34, 34);
+}
+
+.bike-header-second{
+  transform: rotate(-90deg);
+  width: 5rem;
+  margin: 4rem 1rem 0 1rem;
+}
+.bike-header-second>h1{
+  font-family: 'Playfair Display', serif;
+  font-size: 4.5rem;
+}
+
+.bike-header-third-ser>h1{
+  margin-top: 2rem;
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  word-spacing: 1;
+  color:rgb(255, 34, 34);
+}
+
+.bike-header-third-vice>h1{
+  font-family: 'Playfair Display', serif;
+  font-size: 2.6rem;
+}    
+
+ .bike-para{
+   margin: 1rem;
+ }
+ .bike-para>p{
+   text-align: justify;
+   font-family: 'Playfair Display', serif;
+ }
+
+ .bike-button>button{
+   margin: 1rem;
+   border-radius:0;
+ }
+ 
+ .service-image-container{
+  padding:0;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: end;
+   position: relative;
+   padding-left: -8rem;
+   
+ }
+
+
+ .slider-1{
+   margin-top: 3rem ;
+   width: 100vw;
+   height: 22rem;
+   background-image: url("https://www.freepngimg.com/thumb/bike/23462-4-biker-transparent-background.png");
+   background-size: 95%;
+   background-repeat: no-repeat;
+   background-blend-mode: overlay;
+ } 
+
+ .slider-2{
+    margin-top: 3rem ;
+    width: 100vw;
+    height: 22rem;
+    background-image: url("https://www.freepngimg.com/thumb/bike/23302-6-racing-motorbike-photos.png");
+    background-size: 95%;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+  }
+
+ .service-image-bottom{
+   width: 100vw;
+   height: 15rem;
+   background-color: rgb(255, 34, 34);
+   position: absolute;
+   bottom: 0rem;
+   background-blend-mode: overlay;
+   z-index: -1;
+ }
+}
+
+   @media screen and (min-width:420px) and (max-width:480px){
+
+    .service-main-container{
+      display: flex;
+      overflow-x:hidden;
+      /* padding-right: 1.5rem; */
+    }
+
+    .service-text-container{
+      padding: 1rem 2rem;
+       /* padding-left: 0; */
+       padding-right: 1.5rem;
+   
+    }
+
     .bike-header-second{
      margin: 6.4rem 1rem 0 1rem; 
    }
@@ -151,8 +448,13 @@
  
     .slider-1{
      margin-top: 1rem ;
-     height: 44.5rem;
+     height: 35rem;
    }
+
+   .slider-2{
+    margin-top: 1rem ;
+    height: 35rem;
+  }
 
    .service-image-bottom{
      height: 15rem;
@@ -162,6 +464,19 @@
  } 
 
   @media screen and (min-width:480px)and(max-width:600px){
+     .service-main-container{
+      display: flex;
+      overflow-x:hidden;
+      /* padding-right: 1.5rem; */
+    }
+
+    .service-text-container{
+      padding: 1rem 2rem;
+       /* padding-left: 0; */
+       padding-right: 1.5rem;
+   
+    }
+
    .bike-header-third-ser>h1{
      padding-top: 0rem;
     font-size: 5.8rem;
@@ -227,7 +542,7 @@
   }
    .bike-header-first{
      width: 5rem;
-     height:13rem;
+     height:8rem;
      background-Color:rgb(255, 34, 34);
    }
  }

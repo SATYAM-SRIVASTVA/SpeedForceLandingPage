@@ -7,19 +7,21 @@ import Cards from './Components/Cards/Cards';
 import Navbar from './Components/NavBar/navbar';
 import Bikeservice from './Components/BikeService/bikeservice';
 import Excellent from './Components/Excellent/excellent';
-import Form from './Components/Form/form';
+import Form from './Components/Form/Form';
+ 
 
 function App() {
   return (
     <>
     <Navbar/>
-    <Bikeservice/>
-    <Excellent/>
-    <Cards/> 
+     <Bikeservice/>
+    <Excellent>
+       <Form/>
+      </Excellent>
+     <Cards/> 
     <Story/> 
     <Services/> 
       <Footer/>
-      {/* <Form/> */}
     </>
   );
 }

@@ -19,10 +19,10 @@ class Story extends Component {
           </div>
 
           <div className="right-container">
-            <div className="right-container-heading">
+            <div className="right-container-heading card-heading">
               <h1>OUR STORY</h1> <br />
             </div>
-            <div className="right-container-para">
+            <div className="right-container-para card-heading">
               <p>
                 We started in 2012 and we are growing speedily across the
                 nation. Our franchises are operational in 16 different states of

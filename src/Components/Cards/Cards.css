@@ -57,7 +57,104 @@
     /* margin-left: 1rem; */
 }
 
-@media screen and (max-width:480px){
+.card-heading{
+    color: black;
+}
+
+@media screen and (min-width:300px) and (max-width:350px){
+    .header-container{
+        flex-direction: row;
+        display: flex;
+        padding:0rem ;
+    }
+    
+    .header-text>h1{
+        padding-top: 1rem;
+        padding-left: 2rem;
+        width: 13rem;
+        font-size: 1.5rem;
+    }
+    .header-rectangle{
+        margin-top: 1rem;
+        margin-right: 2rem;
+    }
+
+    .card-container-1{
+        flex-direction: column;
+        padding: 0rem 0rem;
+    }
+    
+
+    .card-container-2{
+        padding: 0rem 0rem;
+        flex-direction: column;
+        padding-bottom: 4rem;
+    }
+}
+
+@media screen and (min-width:350px) and (max-width:400px){
+    .header-container{
+        flex-direction: row;
+        display: flex;
+        padding:0rem ;
+    }
+    
+    .header-text>h1{
+        padding-top: 1rem;
+        padding-left: 2rem;
+        width: 13rem;
+        font-size: 1.5rem;
+    }
+    .header-rectangle{
+        margin-top: 1rem;
+        margin-right: 2rem;
+    }
+
+    .card-container-1{
+        flex-direction: column;
+        padding: 0rem 1.7rem;
+    }
+    
+
+    .card-container-2{
+        padding: 0rem 1.7rem;
+        flex-direction: column;
+        padding-bottom: 4rem;
+    }
+}
+
+@media screen and (min-width:400px) and (max-width:420px){
+    .header-container{
+        flex-direction: row;
+        display: flex;
+        padding:0rem ;
+    }
+    
+    .header-text>h1{
+        padding-top: 1rem;
+        padding-left: 2rem;
+        width: 13rem;
+        font-size: 1.5rem;
+    }
+    .header-rectangle{
+        margin-top: 1rem;
+        margin-right: 2rem;
+    }
+
+    .card-container-1{
+        flex-direction: column;
+        padding: 0rem 2rem;
+    }
+    
+
+    .card-container-2{
+        padding: 0rem 2rem;
+        flex-direction: column;
+        padding-bottom: 4rem;
+    }
+}
+
+ @media screen and (min-width:420px) and (max-width:480px){
 
     .header-container{
         flex-direction: row;
@@ -133,14 +230,13 @@
         font-size:1.5rem;
         color: rgb(255, 34, 34);
         margin-top: 1.5rem;
-        /* margin-left: 1rem; */
     }
     
 }
 .card-text{
     font-size: 1rem;
-    /* justify-content: left; */
     text-align: justify;
+    line-height: 1.5;
 }
 
 @media screen and (min-width:600px) and (max-width:800px){
