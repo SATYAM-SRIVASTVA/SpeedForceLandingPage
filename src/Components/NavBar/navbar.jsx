@@ -9,7 +9,8 @@ export default class navbar extends Component {
           <img
             src="https://franchiseindia.s3.ap-south-1.amazonaws.com/uploads/franchisor/speedforce_1.gif"
             alt="speedforce logo"
-          />
+            />
+            <p>TM</p>
         </div>
       </div>
     );

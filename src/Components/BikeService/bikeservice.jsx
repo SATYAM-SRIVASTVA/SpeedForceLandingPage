@@ -15,7 +15,7 @@ export default class bikeservice extends Component {
     };
     return (
       <>
-        <div style={{margin:'0'}} className="service-main-container row">
+        <div style={{margin:'0'}} className="service-main-container row m-0">
           <div className="service-text-container col col-lg-5 col-md-5 col-sm-12 col-xm-12">
             <div style={{width:'100%',height:'1rem',backgroundColor:'black'}} className="service-text-first-container"></div>
             <div className="service-text-second-container">
@@ -35,15 +35,10 @@ export default class bikeservice extends Component {
               </div>
               <div className="bike-para">
                 <p>
-                  Best Bike Repair Service In Cities across India. 24/7
-                  Breakdown Assistance. Genuine Service in PAN India . We Have a
-                  Well-Trained & Experienced Bike Service Expert. Quality
-                  Service at Your Doorstep. Lowest Rate. All Original Spare
-                  Parts.
+                Our ultimate objective is to provide best in class all two wheeler services under single roof.
                 </p>
                 <p>
-                  We provide high quality services @ reasonable prices. We offer
-                  a free pickup and drop on all our services
+                We believe in customer service, Service is our strength.
                 </p>
               </div>
               <div className="bike-button">

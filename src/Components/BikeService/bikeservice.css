@@ -50,7 +50,7 @@
    font-family: 'Playfair Display', serif;
  }
 
- .bike-button>button{
+ .bike-button>a>button{
    margin: 1rem;
    border-radius:0;
  }
@@ -151,6 +151,7 @@
  .bike-para>p{
    text-align: justify;
    font-family: 'Playfair Display', serif;
+   color: black;
  }
 
  .bike-button>button{
